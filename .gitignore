@@ -1,1 +1,4 @@
 .venv/
+mysite/_pycache__/
+pages/__pycache__/
+deleteme/
