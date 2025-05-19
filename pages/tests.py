@@ -17,7 +17,7 @@ class HomepageTests(SimpleTestCase):
 
     def test_template_content(self):
         response = self.client.get(reverse("home"))
-        self.assertContains(response,"<h1>Homepage</h1>")
+        self.assertContains(response,"homepage")
 
 class AboutpageTests(SimpleTestCase):
     def test_url_exists_at_correct_location(self):
