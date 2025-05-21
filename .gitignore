@@ -2,3 +2,4 @@
 mysite/_pycache__/
 pages/__pycache__/
 deleteme/
+*.sqlite3
